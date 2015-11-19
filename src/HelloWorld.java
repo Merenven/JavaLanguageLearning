@@ -2,7 +2,14 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello");
+		Calculator calc;
+		calc = new Calculator();
+		
+		String s;
+		s = calc.toString();
+		
+		System.out.println(s);
+		
 	}
 
 }
